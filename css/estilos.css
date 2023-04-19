@@ -12,12 +12,23 @@ body {
     left: 0;
   }
 
+nav .nav-link:hover {
+  background-color: #F4BD18;
+}
 .row>* {
    
     padding-right: 0;
     padding-left: 0;
     
 }
+.nav-link {
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+.active {
+  background-color: #F4BD18;
+}
+
 .col-md-3 {
     flex: 0 0 auto;
     width: 25%;
@@ -26,7 +37,10 @@ body {
     position: absolute;
 }
 
-
+.ubinav {
+  margin-top: -25rem;
+  
+}
 .previewbauhaus {
     text-align: justify;
     
@@ -69,5 +83,16 @@ body {
 
 .wassilypreview {
   text-align: justify;
+}
+
+.boton2 {
+  position: absolute;
+  padding-top: 19rem;
+  padding-left: 23rem;
+  width: 35%;
+}
+.footer {
+  background-color: #EDDECB;
+  padding: 20px 0;
 }
 
