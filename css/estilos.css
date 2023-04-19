@@ -1,0 +1,89 @@
+
+body {
+    overflow-x: hidden;
+  }
+
+.bannerhome {
+    width: 100%;
+  }
+
+.navbar-nav {
+    
+    top: 50px;
+    left: 0;
+  }
+
+.row>* {
+   
+    padding-right: 0;
+    padding-left: 0;
+    margin-top: var(--bs-gutter-y);
+}
+.col-md-3 {
+    flex: 0 0 auto;
+    width: 25%;
+    display: flex;
+    margin-top: -377px;
+    position: absolute;
+}
+
+
+.previewbauhaus {
+    text-align: justify;
+    
+}
+
+.boton1 {
+    position: absolute;
+    padding-top: 19rem;
+    padding-left: 23rem;
+    width: 35%;
+}
+
+.img-container {
+    display: flex;
+    width: 85%;
+    margin-right: 0;
+    justify-content: center;
+
+}
+
+.conoce {
+    text-align: left;
+}
+
+.img-btn:hover {
+    transform: scale(1.2);
+    transition: all 0.3s ease-in-out;
+  }
+
+
+.w-100 {
+    width: 100%!important;
+    position: absolute;
+}
+
+.wassily {
+  margin: 0;
+  justify-content: left;
+}
+
+.wassilypreview {
+  text-align: justify;
+ 
+}
+
+.row>* {
+   
+  padding-right: 0;
+  padding-left: 0;
+  margin-top: var(--bs-gutter-y);
+}
+
+.img-container {
+  display: flex;
+  width: 85%;
+  margin-right: 0;
+  justify-content: center;
+
+}
