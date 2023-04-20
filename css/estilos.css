@@ -42,8 +42,9 @@ nav .nav-link:hover {
   
 }
 .previewbauhaus {
-    text-align: justify;
-    
+  text-align: justify;
+  font-family: 'Montserrat', sans-serif;
+
 }
 
 .boton1 {
@@ -94,5 +95,87 @@ nav .nav-link:hover {
 .footer {
   background-color: #EDDECB;
   padding: 20px 0;
+}
+
+.text-center2 {
+  text-align: center!important;
+  margin-left: auto;
+  width: 56%;
+}
+
+.durante {
+  flex: 0 0 auto;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+
+.img-container2 {
+  display: flex;
+  width: 40%;
+  margin: auto;
+  justify-content: right;
+}
+.background2 {
+  background-color: #005AAB;
+  height: 17rem;
+}
+
+.previewbauhaus2 {
+  text-align: justify;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+.img-fluid2 {
+  width: 18%;
+  height: auto;
+  position: absolute;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.img-container2 {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+}
+.background3 {
+  background-color: #EDDECB;
+  padding-top: 7rem;
+  padding-bottom: 3rem;
+}
+
+.info {
+  text-align: justify;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+.boton3 {
+    position: absolute;
+    margin-left: 13rem;
+    width: 10%;
+    display: flex;
+
+}
+
+.wassilypreview2 {
+  text-align: justify;
+  margin-bottom: 0;
+}
+
+.text-center3 {
+  text-align: center!important;
+  margin-left: auto;
+  width: 66%;
+  padding-right: 2rem;
+}
+
+.footercolor {
+  
+  background-color: #F4BD18;
 }
 
