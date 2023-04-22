@@ -39,8 +39,8 @@ nav .nav-link:hover {
 
 .ubinav {
   margin-top: -25rem;
-  
 }
+
 .previewbauhaus {
   text-align: justify;
   font-family: 'Montserrat', sans-serif;
@@ -48,10 +48,10 @@ nav .nav-link:hover {
 }
 
 .boton1 {
-    position: absolute;
-    padding-top: 19rem;
-    padding-left: 23rem;
-    width: 35%;
+  position: absolute;
+  padding-top: 20rem;
+  padding-left: 25rem;
+  width: 36%;
 }
 
 .img-container {
@@ -59,11 +59,10 @@ nav .nav-link:hover {
     width: 85%;
     margin-right: 0;
     justify-content: center;
-
 }
 
 .conoce {
-    text-align: left;
+  text-align: left;
 }
 
 .img-btn:hover {
@@ -80,6 +79,10 @@ nav .nav-link:hover {
 .wassily {
   margin: 0;
   justify-content: left;
+  width: 50%;
+  padding-left: 2rem;
+  padding-top: 4rem;
+  padding-bottom: 3rem;
 }
 
 .wassilypreview {
@@ -89,8 +92,8 @@ nav .nav-link:hover {
 .boton2 {
   position: absolute;
   padding-top: 19rem;
-  padding-left: 23rem;
-  width: 35%;
+  padding-left: 16rem;
+  width: 27%;
 }
 .footer {
   background-color: #EDDECB;
@@ -100,7 +103,7 @@ nav .nav-link:hover {
 .text-center2 {
   text-align: center!important;
   margin-left: auto;
-  width: 56%;
+  width: 65%;
 }
 
 .durante {
@@ -148,6 +151,15 @@ nav .nav-link:hover {
   padding-bottom: 3rem;
 }
 
+.arquitectura {
+  margin: 0;
+  justify-content: left;
+  width: 80%;
+  padding-left: 2rem;
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+}
+
 .info {
   text-align: justify;
   font-family: 'Montserrat', sans-serif;
@@ -165,6 +177,8 @@ nav .nav-link:hover {
 .wassilypreview2 {
   text-align: justify;
   margin-bottom: 0;
+  text-align: justify;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .text-center3 {
@@ -179,3 +193,173 @@ nav .nav-link:hover {
   background-color: #F4BD18;
 }
 
+.contactoimg {
+  width: 85%;
+  margin: auto;
+  display: flex;
+}
+
+.contacto {
+  text-align: center;
+}
+
+form {
+  width: 85%;
+  margin-left: auto;
+
+}
+
+form label {
+  color: white;
+  margin-bottom: 1rem;
+}
+.formulario {
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+}
+
+.usuario {
+  display: flex;
+}
+
+.apellido {
+  margin-left: 2rem;
+}
+
+.email {
+  width: 105%;
+}
+
+.backgroundcontacto {
+background-color: #005AAB;
+}
+
+.margen_artistas {
+  margin-bottom: 0;
+}
+
+.walter {
+  margin-left: auto;
+  width: 50%;
+  padding-right: 2rem;
+  padding-bottom: 3rem;
+}
+
+.text-center_artistas {
+  text-align: center!important;
+  margin-right: auto;
+  width: 65%;
+}
+
+
+
+
+.image-container {
+  position: relative;
+  padding: 1rem;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.image-container:hover .text-overlay {
+  opacity: 1;
+}
+
+.text-overlay h2 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
+}
+
+.text-overlay p {
+  font-size: 0.7rem;
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
+  text-align: justify;
+  
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.background5 {
+  background-color: #005AAB;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.img-fluid3 {
+  width: 42%;
+  height: auto;
+  position: absolute;
+  display: flex;
+}
+.text-center_diseñoind {
+
+    text-align: center!important;
+    margin: auto;
+}
+
+.margen_galeria {
+  padding-top: 10rem;
+  padding-bottom: 5rem;
+}
+
+.arte {
+  margin: 0;
+  justify-content: left;
+  padding-left: 4rem;
+  padding-bottom: 3rem;
+}
+
+.wassily {
+  margin: 0;
+  justify-content: left;
+  padding-left: 2rem;
+  padding-bottom: 3rem;
+}
+
+.img-fluid4 {
+  width: 35%;
+  height: auto;
+  position: absolute;
+  display: flex;
+}
+
+.background6 {
+  background-color: #ED1B24;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.margen_diseño {
+  padding-top: 4rem;
+  
+}
+
+.hover-zoom:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+}
+.card {
+  --bs-card-border-color: 0;
+  width: 50%;
+}
