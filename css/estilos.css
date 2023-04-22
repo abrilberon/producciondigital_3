@@ -204,18 +204,25 @@ nav .nav-link:hover {
 }
 
 form {
-  width: 85%;
-  margin-left: auto;
+  width: 50%;
+  margin: auto;
+  margin-top: 12rem;
+  margin-bottom: 5rem;
+}
 
+.margen_diseño {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 form label {
-  color: white;
-  margin-bottom: 1rem;
+  color: black;
+  margin-bottom: 0.5rem;
+  font-family: 'Montserrat', sans-serif;
 }
-.formulario {
-  padding-top: 3rem;
-  padding-bottom: 4rem;
+
+.background_form {
+  background-color: #EDDECB;
 }
 
 .usuario {
@@ -223,15 +230,38 @@ form label {
 }
 
 .apellido {
-  margin-left: 2rem;
+  margin-left: 2.5rem;
 }
-
 .email {
   width: 105%;
 }
 
+.background_footer {
+  background-color: #F4BD18;
+  color: black;
+}
+
+.btn-primary {
+  background-color: #005AAB;
+  color: white;
+  border-color: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn-primary:hover {
+  background-color: #ED1B24;
+}
+
 .backgroundcontacto {
-background-color: #005AAB;
+  background-color: #005AAB;
+}
+
+.img-fluid_contacto {
+  width: 42%;
+  height: auto;
+  position: absolute;
+  display: flex;
+  padding-top: 3rem;
 }
 
 .margen_artistas {
@@ -319,7 +349,7 @@ img {
 }
 
 .margen_galeria {
-  padding-top: 10rem;
+  padding-top: 7rem;
   padding-bottom: 5rem;
 }
 
@@ -350,10 +380,6 @@ img {
   padding-bottom: 2rem;
 }
 
-.margen_diseño {
-  padding-top: 4rem;
-  
-}
 
 .hover-zoom:hover {
   transform: scale(1.1);
@@ -363,3 +389,39 @@ img {
   --bs-card-border-color: 0;
   width: 50%;
 }
+
+
+
+.card_artistas{
+  text-align: justify;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  margin-top: 3rem;
+  padding-bottom: 6rem;
+ 
+}
+
+.background_artistas {
+  background-color: antiquewhite;
+}
+
+.width_artistas {
+  width: 95%;
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 2rem;
+}
+
+.font_title {
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.foto_artistas{
+  width: 33.7%;
+}
+.artistas_right {
+  justify-content: right;
+}
+
