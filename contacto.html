@@ -87,30 +87,34 @@
 
       <div class="row justify-content-center ">
         <div class="col-md-12 background_form">
-          <form>
-            <div class="form-row usuario">
+
+          <form action="enviar.php" method="post">
+
+            <div class="form-row">
               <div class="form-group col-md-6">
                 <label for="inputName">Nombre</label>
-                <input type="text" class="form-control shadow-lg" id="inputName" >
+                <input type="text" class="form-control shadow-lg" id="inputName" name="nombre" required>
               </div>
+
               <br>
-              <div class="form-group col-md-6 apellido">
-                <label for="inputLastName">Apellido</label>
-                <input type="text" class="form-control shadow-lg" id="inputLastName" >
-              </div>
-            </div>
-            <br>
+              
             <div class="form-group email">
               <label for="inputEmail">Email</label>
-              <input type="email" class="form-control shadow-lg" id="inputEmail">
+              <input type="email" class="form-control shadow-lg" id="inputEmail" name="email" required >
             </div>
             <br>
-            <div class="form-group email">
+            <div class="form-group col-md-6 ">
+              <label for="inputLocalidad">Localidad</label>
+              <input type="text" class="form-control shadow-lg" id="inputLocalidad" name="localidad">
+            </div>
+          </div>
+          <br>
+            <div class="form-group ">
               <label for="inputComment">Comentario</label>
-              <textarea class="form-control shadow-lg" id="inputComment" rows="3"></textarea>
+              <textarea class="form-control shadow-lg" id="inputComment" rows="3" name="comentario"></textarea>
             </div>
             <br>
-            <button type="submit" class="btn btn-primary shadow-lg">Enviar</button>
+            <button type="submit" class="btn btn-primary shadow-lg" value="Enviar">Enviar</button>
           </form>
         </div>
 
@@ -121,13 +125,13 @@
   </div>
 
   
-    <footer class="footer background_footer">
+    <footer class="footer background_footer2">
       <div class="container">
         <div class="row">
           <div class="col-sm-6">
             <span class="float-left">La Bauhaus - Abril Berón</span>
           </div>
-          <div class="col-sm-6">
+          <div class="col-sm-6 right_footer">
             <span class="float-right">Registrate</span>
           </div>
         </div>

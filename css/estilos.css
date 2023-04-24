@@ -3,6 +3,9 @@ body {
     overflow-x: hidden;
   }
 
+.container-fluid {
+  padding: 0;
+}
 .bannerhome {
     width: 100%;
   }
@@ -39,6 +42,7 @@ nav .nav-link:hover {
 
 .ubinav {
   margin-top: -25rem;
+  margin-left: 2rem;
 }
 
 .previewbauhaus {
@@ -145,6 +149,7 @@ nav .nav-link:hover {
   margin: auto;
   justify-content: center;
 }
+
 .background3 {
   background-color: #EDDECB;
   padding-top: 7rem;
@@ -166,12 +171,12 @@ nav .nav-link:hover {
   margin-bottom: 3rem;
   margin-top: 3rem;
 }
+
 .boton3 {
     position: absolute;
     margin-left: 13rem;
     width: 10%;
     display: flex;
-
 }
 
 .wassilypreview2 {
@@ -203,6 +208,9 @@ nav .nav-link:hover {
   text-align: center;
 }
 
+.form-group {
+  width: 100%;
+}
 form {
   width: 50%;
   margin: auto;
@@ -225,16 +233,9 @@ form label {
   background-color: #EDDECB;
 }
 
-.usuario {
-  display: flex;
-}
 
-.apellido {
-  margin-left: 2.5rem;
-}
-.email {
-  width: 105%;
-}
+
+
 
 .background_footer {
   background-color: #F4BD18;
@@ -287,6 +288,12 @@ form label {
 .image-container {
   position: relative;
   padding: 1rem;
+  
+}
+.image-container2 {
+  position: relative;
+  padding: 1rem;
+  width: 25%;
 }
 
 .text-overlay {
@@ -306,6 +313,9 @@ form label {
 }
 
 .image-container:hover .text-overlay {
+  opacity: 1;
+}
+.image-container2:hover .text-overlay {
   opacity: 1;
 }
 
@@ -403,7 +413,7 @@ img {
 }
 
 .background_artistas {
-  background-color: antiquewhite;
+  background-color: #EDDECB;
 }
 
 .width_artistas {
@@ -421,7 +431,99 @@ img {
 .foto_artistas{
   width: 33.7%;
 }
+
 .artistas_right {
   justify-content: right;
 }
 
+.carousel_artistas {
+  width: 80%;
+}
+
+.right_footer {
+  text-align: right;
+}
+
+.img-container3 {
+    display: flex;
+    width: 100%;
+    margin-left: -8rem;
+    justify-content: right;
+}
+
+.img-container4 {
+    display: flex;
+    width: 100%;
+    margin-left: 8rem;
+    justify-content: left;
+}
+
+.numero {
+  font-size: 19rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #005AAB;
+}
+
+.numero2 {
+  font-size: 19rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #ED1B24;
+}
+
+.numero3 {
+  font-size: 19rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #F4BD18;
+}
+
+.background7 {
+  background-color: #F4BD18;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.background_exclusivo {
+  background-color: #EDDECB;
+}
+
+.background_footer2 {
+  background-color: black;
+  color: white;
+}
+
+
+.principios {
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+}
+.img-container5 {
+  display: flex;
+  justify-content: center;
+}
+
+.text-center_principios {
+  text-align: center!important;
+  width: 40%;
+  position: absolute;
+  margin-top: -8rem;
+}
+
+.padding_principios {
+  padding-top: 8rem
+}
+
+.titulo_principios {
+  flex: 0 0 auto;
+  width: 100%;
+  justify-content: left;
+  display: flex;
+  margin-bottom: 11rem;
+}
+
+.titulo {
+  font-size: 2rem;
+    text-align: left;
+    color: white;
+    font-family: 'Montserrat';
+}
