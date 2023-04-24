@@ -233,10 +233,6 @@ form label {
   background-color: #EDDECB;
 }
 
-
-
-
-
 .background_footer {
   background-color: #F4BD18;
   color: black;
@@ -319,6 +315,14 @@ form label {
   opacity: 1;
 }
 
+.img-container3:hover {
+  transform: scale(1.2);
+  transition: all 0.2s ease-in-out;
+}
+.img-container4:hover {
+  transform: scale(1.2);
+  transition: all 0.2s ease-in-out;
+}
 .text-overlay h2 {
   font-size: 1rem;
   margin-bottom: 1rem;
@@ -504,13 +508,14 @@ img {
 
 .text-center_principios {
   text-align: center!important;
-  width: 40%;
+  width: 48%;
   position: absolute;
-  margin-top: -8rem;
+  margin-top: -1rem;
 }
 
 .padding_principios {
-  padding-top: 8rem
+  padding-top: 8rem;
+  margin-top: 1rem;
 }
 
 .titulo_principios {
@@ -518,7 +523,7 @@ img {
   width: 100%;
   justify-content: left;
   display: flex;
-  margin-bottom: 11rem;
+  margin-bottom: 7rem;
 }
 
 .titulo {
