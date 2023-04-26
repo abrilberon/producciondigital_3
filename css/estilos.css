@@ -423,9 +423,9 @@ img {
 }
 
 .width_artistas {
-  width: 95%;
+  width: 90%;
   font-family: 'Montserrat', sans-serif;
-  padding-bottom: 2rem;
+  padding-bottom: 1.2rem;
 }
 
 .font_title {
@@ -434,8 +434,19 @@ img {
   margin-top: 1rem;
 }
 
-.foto_artistas{
-  width: 33.7%;
+.wassily-alineacion {
+  width: 80%;
+    margin: auto;
+    display: flex;
+
+}
+
+.margen-preview {
+margin-bottom: 6rem;
+}
+
+.lilly{
+  width: 32%;
 }
 
 .artistas_right {
