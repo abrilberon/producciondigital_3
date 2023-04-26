@@ -317,12 +317,14 @@ form label {
 
 .img-container3:hover {
   transform: scale(1.2);
-  transition: all 0.2s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
+
 .img-container4:hover {
   transform: scale(1.2);
-  transition: all 0.2s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
+
 .text-overlay h2 {
   font-size: 1rem;
   margin-bottom: 1rem;
@@ -396,7 +398,7 @@ img {
 
 
 .hover-zoom:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
   transition: all 0.5s ease-in-out;
 }
 .card {
@@ -531,4 +533,20 @@ img {
     text-align: left;
     color: white;
     font-family: 'Montserrat';
+}
+
+
+.artistas_card {
+  margin: auto;
+  width: 51%;
+  
+}
+
+
+
+.artistas_card_right {
+  margin: auto;
+  width: 51%;
+  display: flex;
+  justify-content: right;
 }
