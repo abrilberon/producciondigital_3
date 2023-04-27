@@ -428,6 +428,12 @@ img {
   padding-bottom: 1.2rem;
 }
 
+.width_artistaswalter {
+  width: 90%;
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 3.7rem;
+}
+
 .font_title {
   font-family: 'Montserrat', sans-serif;
   margin-bottom: 1rem;
@@ -444,6 +450,9 @@ margin-bottom: 6rem;
   width: 32%;
 }
 
+.paul {
+  width: 32.5%;
+}
 .artistas_right {
   justify-content: right;
 }
