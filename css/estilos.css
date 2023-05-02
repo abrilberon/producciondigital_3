@@ -13,6 +13,7 @@ body {
 .navbar-nav {
     top: 50px;
     left: 0;
+    
   }
 
 nav .nav-link:hover {
@@ -558,14 +559,17 @@ margin-bottom: 6rem;
     font-family: 'Montserrat';
 }
 
+.card-position {
+  --bs-card-border-color: 0;
+  width: 50%;
+  margin: auto;
+}
 
 .artistas_card {
   margin: auto;
   width: 51%;
   
 }
-
-
 
 .artistas_card_right {
   margin: auto;
@@ -574,12 +578,13 @@ margin-bottom: 6rem;
   justify-content: right;
 }
 
-.portada1 {
+#portada1 {
  
-  background-image: url("imagenes/fondo-21.jpg"); 
+  background-image: url("../imagenes/fondo-21.jpg"); 
   background-repeat: no-repeat; 
-  background-size: cover;
+ background-attachment: fixed;
   text-align: center;
+  background-size: cover;
 
   justify-content: center;
   position: relative;
@@ -587,5 +592,47 @@ margin-bottom: 6rem;
   width: 100%;
   
   align-items: center;
+  padding-bottom: 6rem;
+  margin: 0;
 }
 
+.img-fluid_video {
+    width: 100%;
+    height: 40rem;
+}
+
+.fondo-video {
+  background-color: white;
+}
+
+.carousel-control-next-icon {
+ 
+  background-color: #F4BD18;
+}
+
+.carousel-control-prev-icon {
+  background-color: #F4BD18;
+
+}
+
+.bottom-home {
+  margin-bottom: 4rem;
+}
+
+section {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+#navbarNav {
+  justify-content: center;
+  font-family: 'Montserrat';
+}
+
+.espacio {
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+#margin-nav {
+  margin-top: 4rem;
+}
