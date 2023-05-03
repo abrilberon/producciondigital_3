@@ -476,7 +476,7 @@ margin-bottom: 6rem;
 }
 
 .paul {
-  width: 32.5%;
+  width: 31.3%;
 }
 .artistas_right {
   justify-content: right;
@@ -484,6 +484,7 @@ margin-bottom: 6rem;
 
 .carousel_artistas {
   width: 80%;
+  margin: auto;
 }
 
 .right_footer {
@@ -675,4 +676,13 @@ section {
 }
 .image-container:hover .text-overlay2 {
   opacity: 1;
+}
+
+.alineacionfotos {
+  height: 13rem;
+  width: auto;
+}
+
+.wassilya {
+  margin: auto;
 }
