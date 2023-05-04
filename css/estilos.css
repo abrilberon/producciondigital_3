@@ -656,9 +656,6 @@ section {
   margin-left: 1rem;
 }
 
-#margin-nav {
-  margin-top: 4rem;
-}
 
 .text-overlay2 h2 {
   font-size: 1.4rem;
@@ -685,4 +682,8 @@ section {
 
 .wassilya {
   margin: auto;
+}
+
+.bauhaus360 {
+  height: 40rem;
 }
