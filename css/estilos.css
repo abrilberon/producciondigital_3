@@ -687,3 +687,11 @@ section {
 .bauhaus360 {
   height: 40rem;
 }
+
+.supremastic {
+  min-height: -webkit-fill-available;
+}
+
+.width-arte {
+  width: max-content;
+}
