@@ -694,3 +694,10 @@ section {
 
 .width-arte {
   width: max-content;}
+
+
+.margen_diseño2 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-color: #EDDECB;
+}
