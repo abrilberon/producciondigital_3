@@ -711,3 +711,9 @@ section {
   .label-buscar {
     display: none;
   }
+
+  .buscador2 {
+    width: 50%;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
