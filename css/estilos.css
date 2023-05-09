@@ -382,7 +382,7 @@ img {
 }
 
 .margen_galeria {
-  padding-top: 7rem;
+  padding-top: 3rem;
   padding-bottom: 5rem;
 }
 
@@ -696,8 +696,18 @@ section {
   width: max-content;}
 
 
-.margen_diseño2 {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-  background-color: #EDDECB;
-}
+  .margen_diseno2 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-color: #EDDECB;
+  }
+
+  .buscador {
+    width: 50%;
+    margin: auto;
+    margin-top: 3rem;
+  }
+
+  .label-buscar {
+    display: none;
+  }
