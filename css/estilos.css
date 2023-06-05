@@ -48,6 +48,7 @@ nav .nav-link:hover {
 
 .previewbauhaus {
   text-align: justify;
+  hyphens: auto;
   font-family: 'Montserrat', sans-serif;
 
 }
@@ -92,6 +93,7 @@ nav .nav-link:hover {
 
 .wassilypreview {
   text-align: justify;
+  hyphens: auto;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -132,8 +134,17 @@ nav .nav-link:hover {
 
 .previewbauhaus2 {
   text-align: justify;
+  hyphens: auto;
   font-family: 'Montserrat', sans-serif;
   color: white;
+}
+
+.previewbauhaus3 {
+  text-align: justify;
+  hyphens: auto;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  text-align: center;
 }
 
 .img-fluid2 {
@@ -169,6 +180,7 @@ nav .nav-link:hover {
 
 .info {
   text-align: justify;
+  hyphens: auto;
   font-family: 'Montserrat', sans-serif;
   margin-bottom: 3rem;
   margin-top: 3rem;
@@ -183,8 +195,8 @@ nav .nav-link:hover {
 
 .wassilypreview2 {
   text-align: justify;
+  hyphens: auto;
   margin-bottom: 0;
-  text-align: justify;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -213,7 +225,7 @@ nav .nav-link:hover {
 .form-group {
   width: 100%;
 }
-form {
+.form-contacto {
   width: 50%;
   margin: auto;
   margin-top: 12rem;
@@ -249,6 +261,30 @@ form label {
 
 .btn-primary:hover {
   background-color: #ED1B24;
+}
+
+.btn-primary2 {
+  background-color: #005AAB;
+  color: white;
+  border-color: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn-primary2:hover {
+  background-color:#005AAB;
+  color: white;
+}
+
+.btn-primary3 {
+  background-color: #005AAB;
+  color: white;
+  border-color: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn-primary3:hover {
+  background-color: #ED1B24;
+  color: white;
 }
 
 .backgroundcontacto {
@@ -301,6 +337,7 @@ form label {
   width: 100%;
   height: 100%;
   display: flex;
+  hyphens: auto;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -316,6 +353,7 @@ form label {
   left: 0;
   width: 100%;
   height: 100%;
+  hyphens: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -354,7 +392,7 @@ form label {
   margin-right: 1.5rem;
   margin-left: 1.5rem;
   text-align: justify;
-  
+  hyphens: auto;
 }
 
 img {
@@ -428,6 +466,7 @@ img {
 .card_artistas{
   text-align: justify;
   width: 100%;
+  hyphens: auto;
   margin: auto;
   display: flex;
   margin-top: 3rem;
@@ -457,26 +496,27 @@ img {
   margin-top: 1rem;
 }
 
+
 .hannes {
-  width: 31.5%;
+  width: 30%;
 }
 .mies {
-  width: 31.6%;
+  width: 30%;
 }
 
 .wassilykand {
-  width: 34.8%;
+  width: 30%;
 }
 .margen-preview {
 margin-bottom: 6rem;
 }
 
 .lilly{
-  width: 32%;
+  width: 30%;
 }
 
 .paul {
-  width: 31.3%;
+  width: 30%;
 }
 .artistas_right {
   justify-content: right;
@@ -662,6 +702,8 @@ section {
   margin-bottom: 1rem;
   margin-right: 2.5rem;
   margin-left: 2.5rem;
+  hyphens: auto;
+
 }
 
 .text-overlay2 p {
@@ -669,7 +711,7 @@ section {
   margin-right: 2.5rem;
   margin-left: 2.5rem;
   text-align: justify;
-  
+  hyphens: auto;
 }
 .image-container:hover .text-overlay2 {
   opacity: 1;
@@ -716,4 +758,104 @@ section {
     width: 50%;
     margin-top: 1rem;
     margin-bottom: 2rem;
+}
+
+
+.form_login {
+  
+    width: 50%;
+    
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+
+}
+.buscador_center {
+  justify-content: center;
+  display: flex;
+}
+.form_login2 {
+  margin-bottom: 2rem;
+  width: min-content;
+ 
+}
+
+.cerrar_sesion {
+ text-decoration: none;
+  color: black;
+  display: flex;
+  text-align: left;
+  
+}
+
+.registrate {
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+ }
+
+.background_login {
+  background-color: #005AAB; 
+  padding-top: 2rem;
+ 
+  margin-top: 2rem;
+}
+
+.background_login2 {
+  background-color: #ED1B24;
+  padding-top: 2rem;
+ 
+  margin-top: 2rem;
+}
+.boton_login {
+  margin-top: 1rem;
+  background-color: #F4BD18;
+  color: black;
+}
+
+.background_registro {
+  background-color:#EDDECB
+}
+
+.labellogin {
+  color: white;
+}
+
+.img-containerlog {
+  display: flex;
+  width: 100%;
+  /* margin: auto; */
+  margin-left: 3rem;
+  justify-content: center;
+}
+
+.img-fluidlog {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  
+  display: flex;
+}
+.margen_diseñolog {
+  
+  padding-bottom: 4rem;
+}
+
+.background_hola {
+  background-color: #ED1B24;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-top: 2rem;
+    margin-left: auto;
+}
+
+.registrate2 {
+  text-decoration: none;
+  color:#F4BD18;
+  font-weight: bolder;
+  text-align: left;
+ }
+
+ .text-center_diseñoind2 {
+color: white;
+  margin: auto;
 }
